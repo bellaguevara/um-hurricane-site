@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Miami Hurricanes - Other Sports</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        h1 {
+            color: #f47321;
+            text-align: center;
+        }
+        h2 {
+            color: #005030;
+        }
+        .nav {
+            background-color: #005030;
+            padding: 10px;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .banner {
+            width: 600px;
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #999;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Other Sports at Miami</h1>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="football.html">Football</a>
+        <a href="other-sports.html">Other Sports</a>
+    </div>
+
+    <h2>Baseball</h2>
+
+    <svg class="banner" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sky2" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#87ceeb"/>
+                <stop offset="100%" stop-color="#c9e6f2"/>
+            </linearGradient>
+            <radialGradient id="outfield" cx="50%" cy="100%">
+                <stop offset="0%" stop-color="#4a9e4a"/>
+                <stop offset="100%" stop-color="#2d6b2d"/>
+            </radialGradient>
+            <linearGradient id="dirt" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#b8864a"/>
+                <stop offset="100%" stop-color="#8b6332"/>
+            </linearGradient>
+        </defs>
+
+        <!-- Sky -->
+        <rect width="600" height="140" fill="url(#sky2)"/>
+
+        <!-- Clouds -->
+        <ellipse cx="100" cy="40" rx="40" ry="12" fill="white" opacity="0.8"/>
+        <ellipse cx="130" cy="35" rx="30" ry="10" fill="white" opacity="0.8"/>
+        <ellipse cx="450" cy="55" rx="50" ry="15" fill="white" opacity="0.8"/>
+        <ellipse cx="480" cy="50" rx="35" ry="12" fill="white" opacity="0.8"/>
+
+        <!-- Palm trees (Miami vibe) -->
+        <g>
+            <rect x="30" y="100" width="4" height="40" fill="#5a3a1f"/>
+            <path d="M 32 100 Q 10 95 8 85 Q 15 95 32 100 Q 54 95 56 85 Q 49 95 32 100 Q 20 105 10 120 Q 22 107 32 100 Q 42 107 54 120 Q 44 105 32 100 Z" fill="#2d6b2d"/>
+        </g>
+        <g>
+            <rect x="560" y="100" width="4" height="40" fill="#5a3a1f"/>
+            <path d="M 562 100 Q 540 95 538 85 Q 545 95 562 100 Q 584 95 586 85 Q 579 95 562 100 Q 550 105 540 120 Q 552 107 562 100 Q 572 107 584 120 Q 574 105 562 100 Z" fill="#2d6b2d"/>
+        </g>
+
+        <!-- Outfield wall -->
+        <rect x="0" y="135" width="600" height="25" fill="#1a4a1a"/>
+        <rect x="0" y="135" width="600" height="6" fill="#f47321"/>
+
+        <!-- Outfield grass -->
+        <path d="M 0 160 L 600 160 L 600 360 L 0 360 Z" fill="url(#outfield)"/>
+
+        <!-- Mowing pattern -->
+        <path d="M 300 360 L 150 200 L 0 260 L 0 360 Z" fill="#3d8b3d" opacity="0.4"/>
+        <path d="M 300 360 L 450 200 L 600 260 L 600 360 Z" fill="#3d8b3d" opacity="0.4"/>
+
+        <!-- Infield dirt (diamond shape) -->
+        <path d="M 300 220 L 400 290 L 300 360 L 200 290 Z" fill="url(#dirt)"/>
+
+        <!-- Infield grass -->
+        <ellipse cx="300" cy="295" rx="55" ry="35" fill="#4a9e4a"/>
+
+        <!-- Pitcher's mound -->
+        <circle cx="300" cy="295" r="10" fill="#b8864a"/>
+        <rect x="296" y="292" width="8" height="2" fill="white"/>
+
+        <!-- Bases -->
+        <rect x="296" y="216" width="8" height="8" fill="white" transform="rotate(45 300 220)"/>
+        <rect x="396" y="286" width="8" height="8" fill="white" transform="rotate(45 400 290)"/>
+        <rect x="296" y="356" width="8" height="8" fill="white" transform="rotate(45 300 360)"/>
+        <rect x="196" y="286" width="8" height="8" fill="white" transform="rotate(45 200 290)"/>
+
+        <!-- Base paths -->
+        <line x1="300" y1="360" x2="400" y2="290" stroke="white" stroke-width="1.5" opacity="0.8"/>
+        <line x1="400" y1="290" x2="300" y2="220" stroke="white" stroke-width="1.5" opacity="0.8"/>
+        <line x1="300" y1="220" x2="200" y2="290" stroke="white" stroke-width="1.5" opacity="0.8"/>
+        <line x1="200" y1="290" x2="300" y2="360" stroke="white" stroke-width="1.5" opacity="0.8"/>
+
+        <!-- Foul lines extending to outfield -->
+        <line x1="300" y1="360" x2="80" y2="160" stroke="white" stroke-width="2" opacity="0.6"/>
+        <line x1="300" y1="360" x2="520" y2="160" stroke="white" stroke-width="2" opacity="0.6"/>
+    </svg>
+
+    <p>
+        Miami baseball has won four national championships in 1982, 1985, 1999, and 2001. The team plays at Alex Rodriguez Park on campus. Famous former players include Alex Rodriguez, Ryan Braun, and Pat Burrell.
+    </p>
+
+    <h2>Basketball</h2>
+
+    <p>
+        The Miami men's basketball team made the Final Four in 2023 for the first time in school history. The women's basketball team also had a great season that year, reaching the Elite Eight. Both teams play home games at the Watsco Center.
+    </p>
+
+    <h2>Other Teams</h2>
+
+    <p>
+        Miami also has strong programs in tennis, golf, soccer, rowing, track and field, and swimming. Rowing practices take place on Lake Osceola right on the UM campus. All together, the Hurricanes have 18 varsity sports teams that compete in the ACC conference.
+    </p>
+
+</body>
+</html>
